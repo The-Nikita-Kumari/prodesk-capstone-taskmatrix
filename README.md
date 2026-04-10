@@ -49,14 +49,10 @@ This project is built as a **Frontend-only** application using mocked data (via 
 
 <img width="1246" height="811" alt="Login" src="https://github.com/user-attachments/assets/bdf4a006-1c43-4bb2-b1e7-64754a777f20" />
 
-
-### 2. 📝 Sign Up Screen<img width="1115" height="823" alt="Screenshot 2026-04-10 210804" src="https://github.com/user-attachments/assets/53a2db65-d3ce-4ff9-b1f0-f800dc36d9e0" />
-<img width="1115" height="823" alt="Screenshot 2026-04-10 210804" src="https://github.com/user-attachments/assets/eba3b820-51aa-4e84-ae69-2637f2b2f583" />
-
+### 2. 📝 Sign Up Screen
 > Two-column form layout collecting **First Name**, **Last Name**, **Email**, **Mobile Number**, **Password**, **Confirm Password**, and **Company Name**. Single full-width **Sign up** CTA button at the bottom.
 
 <img width="1248" height="813" alt="Sign Up" src="https://github.com/user-attachments/assets/06cb43eb-0085-4ea2-ae56-f0286e1dd420" />
-
 
 ### 3. 📊 Dashboard Screen
 > Analytics-focused overview page featuring:
@@ -68,7 +64,6 @@ This project is built as a **Frontend-only** application using mocked data (via 
 
 <img width="1266" height="805" alt="Dashboard" src="https://github.com/user-attachments/assets/d55dc149-82ad-4f39-98dc-a96de7657d17" />
 
-
 ### 4. 📋 Kanban Board (Task Details) Screen
 > Full Kanban board view with:
 > - **4 columns**: To-do , In Progress , In Review , Completed
@@ -79,9 +74,6 @@ This project is built as a **Frontend-only** application using mocked data (via 
 
 <img width="1242" height="810" alt="Task Details" src="https://github.com/user-attachments/assets/14474484-99ad-4954-871f-4299becadcef" />
 
-
-> ⚠️ **Screens still pending design:** Task Detail Modal / Side Panel, Team Members Page, Project Settings Page.
-
 ---
 
 ## 🏗️ Architecture Diagram
@@ -89,7 +81,6 @@ This project is built as a **Frontend-only** application using mocked data (via 
 The state tree has been finalized and is split into **5 Zustand stores**: `authStore`, `userStore`, `taskStore`, `projectStore`, and `uiStore`.
 
 <img width="1115" height="823" alt="State Tree" src="https://github.com/user-attachments/assets/e3b1f58a-94a3-46ab-8933-0b9652dffcbc" />
-
 
 ---
 
